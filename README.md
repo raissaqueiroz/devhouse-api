@@ -4,42 +4,41 @@ API REST básica para cadastro e aluguel de casas. Desenvolvido com intuito de p
 
 ## Experiência Adquirida 
 
-**Padrões REST**
-
+- API
+- MongoDB
+- Mongoose
+- Javascript
+- NodeJS
+- Express
+- Cors
+- DotEnv
+- Padrões REST
 - Verbos HTTPS
 - Status Code
 - Endpoints amigáveis
 - Params, Querys e afins
-
-**Padronização de Código**
-
 - ESlint
 - Erettier
 - Editorconfig
-
-**Validações**
-
 - Yup
-
-**Uploads**
-
 - Multer
-
-**Ferramentas**
-
 - Insominia
 
 ## Instalação
 
-1. Você irá precisar ter o NodeJS e o NPM instalados no seu computador. [Clique aqui](https://nodejs.org/en/) para baixar o NodeJS. O NPM já vem com o NodeJS.
-2. Baixe o repositório deste projeto no seu computador. Você poderá fazer isso através do botão "code" que tem ali em cima, basta clicar nele e em seguida em download ZIP.
-3. Localize o arquivo recem baixado no seu computador e descompate-o
-4. Abra o Prompt de Comando do seu computador
-5. Através do Prompt navegue até a pasta que você acabou de descompactar
-6. Digite o comando `npm install` e aperte enter
-7. Espere terminar de instalar todas as dependências 
-8. Digite o comando `npm start` e aperte enter
-9. Pronto! a API estará rodando na porta 3333 Você poderá alterar isso no .env do projeto.
+00. Será necessário uma string de conexão com o MongoDB. Caso você não tenha uma ainda, você pode criar no atlas através [desse link](https://www.mongodb.com/cloud/atlas/register)
+01. Você irá precisar ter o NodeJS e o NPM instalados no seu computador. [Clique aqui](https://nodejs.org/en/) para baixar o NodeJS. O NPM já vem com o NodeJS.
+02. Baixe o repositório deste projeto no seu computador. Você poderá fazer isso através do botão "code" que tem ali em cima, basta clicar nele e em seguida em download ZIP.
+03. Localize o arquivo recem baixado no seu computador e descompate-o
+04. Abra a pasta que descompactou e localize o arquivo .env
+05. abra o arquivo .env e add a vaiavel de ambiente MONGO_URL.
+06. O valor dessa variável deve ser correspondente a string de conexão do MongoDB que você criou na etapa 00. Ficará assim: MONGO_URL=stringdeconexao
+07. Abra o Prompt de Comando do seu computador
+08. Através do Prompt navegue até a pasta que você acabou de descompactar
+09. Digite o comando `npm install` e aperte enter
+10. Espere terminar de instalar todas as dependências 
+11. Digite o comando `npm start` e aperte enter
+12. Pronto! a API estará rodando na porta 3333 Você poderá alterar isso no .env do projeto.
 
 
 
@@ -84,3 +83,4 @@ GET /houses?status=true
 ```
 
 
+#### Ainda estou montando essa documentação. Ou seja, ela não está finalizada.
